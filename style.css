@@ -1,0 +1,48 @@
+h1{
+    color: blue;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+p{
+    color: blue;
+    font-weight: bold;
+}
+.profile-img {
+  height: 300px;
+  border-radius: 50%;
+}
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+.bi-award,.bi-bar-chart-steps,.bi-boxes{
+  width: 4rem;
+  height: 2rem;
+}
+span{
+  color: black;
+}
+li{
+  color: blue;
+}
+.gradient-background {
+    background: linear-gradient(300deg,aliceblue,cornflowerblue,gainsboro);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  
